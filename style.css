@@ -10,7 +10,7 @@ body {
   background: #f0fff0;
   margin: 0;
   padding: 30px;
-  text-align: center;
+  text-align: center; 
 }
 
 .title-wrapper {
@@ -38,12 +38,13 @@ body {
   border-radius: 8px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
   overflow: hidden;
-  text-align: left;
+  text-align: center;   
 }
 
 .danh-sach-ban-accordion {
   display: flex;
   flex-direction: column;
+
 }
 
 .muc-ban {
@@ -59,7 +60,7 @@ body {
   padding: 18px 25px;
   width: 100%;
   border: none;
-  text-align: left;
+  text-align: left; 
   font-size: 1.15em;
   font-weight: bold;
   cursor: pointer;
@@ -87,6 +88,7 @@ body {
   opacity: 0;
   overflow: hidden;
   transition: max-height 0.4s ease-out, padding 0.4s ease-out, opacity 0.3s ease-out 0.1s;
+  text-align: left; 
 }
 
 .chi-tiet-ban.active {
@@ -174,13 +176,13 @@ body {
 
   .ten-ban {
       font-size: 1.3em;
-      text-align: center;
+      text-align: center; 
       margin-bottom: 10px;
   }
   .thong-tin-truong-ban,
   .mo-ta-ban {
       font-size: 0.9em;
-      text-align: center;
+      text-align: center; 
   }
 
   .khung-anh-ban {
